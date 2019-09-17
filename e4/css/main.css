@@ -5,4 +5,7 @@ body {
 img {
     max-width: 100%;
 }
-p {}
+#container {
+  width: 25%;
+  margin: 100px auto
+}
