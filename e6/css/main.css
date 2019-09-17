@@ -1,0 +1,11 @@
+body {
+    background-color: whitesmoke;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}
+#container {
+  width: 25%;
+  margin: 100px auto
+}
