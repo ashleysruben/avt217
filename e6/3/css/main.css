@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background-color: black
+}
+#container {
+  width: 500%
+}
+.tile1, .tile2, .tile3 {
+  width: 20px;
+  height: 40px;
+  border-radius: 100%
+}
+.tile1 {
+  background-color: blue;
+  float: left;
+  transform: rotate(-45deg);
+}
+.tile2 {
+  background-color: red;
+  float: left;
+  transform: rotate(45deg);
+}
+.tile3 {
+  background-color: lime;
+  float: left;
+}

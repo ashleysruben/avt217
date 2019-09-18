@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+#container {
+  width: 120%
+  margin-left: -10%
+  margin-top: -50px
+}
+.tile1, .tile2, .tile3, .tile4 {
+  width: 90px;
+  height: 90px;
+  float: left;
+  margin: 0px
+}
+.tile1 {
+  background-color: turquoise;
+}
+.tile2 {
+  background-color: #FFFF00;
+  opacity: .9
+}
+.tile3 {
+  background-color: plum;
+}
+.tile4 {
+  background-color: purple;
+}

@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+#container {
+  width: 120%
+  margin-left: -10%
+  margin-top: -50px
+}
+.tile1, .tile2, .tile3 {
+  width: 1000px;
+  height: 100px;
+}
+.tile1 {
+  background-color: yellow;
+}
+.tile2 {
+  background-color: orange;
+}
+.tile3 {
+  background-color: red;
+}
