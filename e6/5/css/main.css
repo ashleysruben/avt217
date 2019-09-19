@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 #container {
   width: 120%
@@ -20,7 +20,7 @@ body {
 }
 .tile2 {
   background-color: #66fff0;
-  
+
 }
 .tile3 {
   background-color: #ffcc33;
