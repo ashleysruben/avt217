@@ -5,3 +5,18 @@ body {
 img {
   max-width: 100%;
 }
+body {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 50px
+}
+a {
+  color: plum
+
+}
+a:hover {
+  color: lavender
+}
+a:visited {
+  color: whitesmoke
+}
