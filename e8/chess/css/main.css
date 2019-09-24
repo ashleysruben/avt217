@@ -1,4 +1,6 @@
-#board {
+body {
+  background-color: blue
+  }#board {
   width: 800px;
 }
 
