@@ -1,18 +1,18 @@
 body {
-
-  }
+background-color: white
+}
 #board {
   width: 800px;
 }
-
 .red {
   width: 100px;
-  height: 100px
-  background-color: red
+  height: 100px;
+  background-color: cyan;
   float: left;
 }
 .white {
   width: 100px;
-  height: 100px
-  background-color: white
+  height: 100px;
+  background-color: purple;
   float: left;
+}

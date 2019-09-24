@@ -3,11 +3,11 @@ body {
   overflow-x: hidden;
 }
 #container {
-  width: 120%
-  margin-left: -10%
-  margin-top: -50px
+  width: 120%;
+  margin-left: -10%;
+  margin-top: -50px;
 }
-.tile1, .tile2, .tile3, .tile4 {
+.tile1 .tile2 .tile3 .tile4 {
   width: 90px;
   height: 90px;
   float: left;

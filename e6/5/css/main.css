@@ -3,20 +3,20 @@ body {
   overflow: hidden;
 }
 #container {
-  width: 120%
-  margin-left: -10%
-  margin-top: -50px
+  width: 120%;
+  margin-left: -10%;
+  margin-top: -50px;
 }
 .tile1, .tile2, .tile3, .tile4, .tile5, .tile6 {
   width: 100px;
   height: 100px;
   float: left;
   opacity: .8;
-  margin: -10px
+  margin: -10px;
 }
 .tile1 {
   background-color: #f49ac2;
-  border-radius: 100%
+  border-radius: 100%;
 }
 .tile2 {
   background-color: #66fff0;
@@ -32,5 +32,5 @@ body {
   background-color: black;
 }
 .tile6 {
-  background-color: #ff3800
+  background-color: #ff3800;
 }

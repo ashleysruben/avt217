@@ -3,24 +3,24 @@ body {
   overflow: hidden;
 }
 #container {
-  width: 100px
-  margin-left:-10px
-  margin-top: -50px
+  width: 100px;
+  margin-left:-10px;
+  margin-top: -50px;
 }
 
 .tile1 {
   background-color: yellow;
-  transform: rotate(55deg)
+  transform: rotate(55deg);
   float: left;
 }
 .tile2 {
   background-color: orange;
-  border-top: 40px
-  border-bottom: 40px
-  border-left: 40px
+  border-top: 40px;
+  border-bottom: 40px;
+  border-left: 40px;
 
 }
 .tile3 {
-  border-radius: 100%
+  border-radius: 100%;
   background-color: red;
 }

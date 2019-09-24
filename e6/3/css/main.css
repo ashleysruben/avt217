@@ -3,12 +3,12 @@ body {
   background-color: black
 }
 #container {
-  width: 500%
+  width: 500%;
 }
-.tile1, .tile2, .tile3 {
+.tile1 .tile2 .tile3 {
   width: 20px;
   height: 40px;
-  border-radius: 100%
+  border-radius: 100%;
 }
 .tile1 {
   background-color: blue;
