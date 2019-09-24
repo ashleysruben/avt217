@@ -1,15 +1,18 @@
 body {
-  background-color: blue
-  }#board {
+
+  }
+#board {
   width: 800px;
 }
 
-.tile1 {
-  width: 100px
+.red {
+  width: 100px;
   height: 100px
-  background-color: red;
+  background-color: red
   float: left;
 }
-.tile2 {
-  background-color: white;
+.white {
+  width: 100px;
+  height: 100px
+  background-color: white
   float: left;
