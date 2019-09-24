@@ -1,0 +1,13 @@
+#board {
+  width: 800px;
+}
+
+.tile1 {
+  width: 100px
+  height: 100px
+  background-color: red;
+  float: left;
+}
+.tile2 {
+  background-color: white;
+  float: left;
