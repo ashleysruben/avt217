@@ -1,19 +1,19 @@
 body {
   text-align: center;
-  background-color: navy
+  background-color: navy;
   font-family: serif;
   font-style: italic;
-  font-size: 30px
+  font-size: 30px;
 }
 img {
   max-width: 100%;
 }
 a {
-  color: #00254c
+  color: #00254c;
 }
 a:hover {
-  color: #fff68f
+  color: #fff68f;
 }
 a:visited {
-  color: gold
+  color: gold;
 }
