@@ -19,15 +19,24 @@ body {
   margin: 0 0 10px;
 
 }
-.col {
+.first .middle {
   width: 250px;
   height: 800px;
   background-color: seagreen;
+  margin-top: 10px;
   margin-right: 25px;
+  float: left;
+}
+.last {
+  width: 250px;
+  height: 800px;
+  background-color: seagreen;
+  margin-top: 10px;
+  float: left;
 }
 .footer {
   width: 800px;
   height: 50px;
   background-color: black;
-  margin: 10px 0 0;
+  margin-bottom: 10px;
 }
