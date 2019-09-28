@@ -3,24 +3,36 @@ body {
   overflow: hidden;
 }
 #container {
-  width: 100px
-  margin-left:-10px
-  margin-top: -50px
+  width: 566px;
+  margin-left:50px;
+  margin-top: 50px;
 }
 
-.tile1 {
-  background-color: yellow;
-  transform: rotate(55deg)
+.longv1 .longv2 {
+  width: 80px;
+  height: 280px;
+  background-color: darkgreen;
+  margin: 1px;
   float: left;
 }
-.tile2 {
-  background-color: orange;
-  border-top: 40px
-  border-bottom: 40px
-  border-left: 40px
-
+.longvr1 .longvr2 {
+  width: 80px;
+  height: 280px;
+  background-color: darkgreen;
+  margin: 1px;
+  float: right;
 }
-.tile3 {
-  border-radius: 100%
-  background-color: red;
+.longh1 {
+  width: 400px;
+  height: 80px;
+  background-color: darkgreen;
+  margin: 1px;
+  float: left;
+}
+.top1 .top2 .bottom1 .bottom2 {
+  width: 200px;
+  height: 200px;
+  background-color: darkgreen;
+  margin: 1px;
+  float: left;
 }
