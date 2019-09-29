@@ -9,7 +9,7 @@ body {
 img {
   max-width: 100%;
 }
-a:active {
+a:link {
   color: #FCF9E0;
 }
 a:hover {
