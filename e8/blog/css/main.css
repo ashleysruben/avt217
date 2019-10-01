@@ -6,7 +6,7 @@ body {
   margin-top: 50px;
 }
 .header {
-  width: 1000px;
+  width: 690px;
   height: 200px;
   background-color: gold;
   margin-bottom: 100px;
@@ -15,17 +15,21 @@ body {
   width: 500px;
   height: 700px;
   background-color: orange;
-  margin: 10px 10px 20px 10px;
+  float: left;
+  margin: 0 0 10px;
 }
 .smallbox {
-  width: 200px;
-  height: 300px;
+  width: 180px;
+  height: 200px;
   background-color: orange;
-  margin: 10px;
+  float: left;
+  margin: 0 0 150px;
+  margin-left: 10px;
 }
 .footer {
-  width: 600px;
+  width: 500px;
   height: 40px;
   background-color: purple;
-  margin: 0px 0px 100px 20px
+  float: left;
+  margin: 0 0 150px;
 }
