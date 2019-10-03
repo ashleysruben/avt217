@@ -8,28 +8,28 @@ body {
   margin-top: 50px;
 }
 
-.longv1 .longv2 {
+.longv1, .longv2 {
   width: 80px;
   height: 280px;
   background-color: darkgreen;
   margin: 1px;
   float: left;
 }
-.longvr1 .longvr2 {
+.longvr1, .longvr2 {
   width: 80px;
   height: 280px;
   background-color: darkgreen;
   margin: 1px;
-  float: right;
+  float: left;
 }
-.longh1 {
+.upperlong, .lowerlong {
   width: 400px;
   height: 80px;
   background-color: darkgreen;
   margin: 1px;
   float: left;
 }
-.top1 .top2 .bottom1 .bottom2 {
+.top1, .top2, .bottom1, .bottom2 {
   width: 200px;
   height: 200px;
   background-color: darkgreen;
