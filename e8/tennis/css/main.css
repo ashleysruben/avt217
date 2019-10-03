@@ -10,7 +10,7 @@ body {
 
 .longv1, .longv2 {
   width: 80px;
-  height: 280px;
+  height: 282px;
   background-color: darkgreen;
   margin: 1px;
   float: left;
@@ -23,7 +23,7 @@ body {
   float: left;
 }
 .upperlong, .lowerlong {
-  width: 400px;
+  width: 402px;
   height: 80px;
   background-color: darkgreen;
   margin: 1px;
