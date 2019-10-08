@@ -1,0 +1,44 @@
+body {background-color: black;
+}
+
+#container {width: 1440px
+}
+
+.title {font-family: adobe-garamond-pro, serif;
+font-weight: 400;
+font-style: normal;
+color: #DFA113;
+text-transform: uppercase;
+text-align: center;
+margin-top: 500px
+}
+
+h1 {font-size: 80pt;
+line-height: 14pt;
+}
+
+h2 {font-size: 50pt;
+line-height: 118pt;
+}
+
+.body {font-family: adobe-garamond-pro, serif;
+font-weight: 400;
+font-style: normal;
+color: #DFA113;
+text-align: right;
+}
+
+h3 {font-size: 60pt;
+line-height: 120pt;
+letter-spacing: 25px;
+}
+
+p {font-size: 25pt;
+line-height: 35pt;
+margin-right: 18px;
+margin-left: 50px;
+}
+
+.img {float: left;
+max-width: 100%
+}

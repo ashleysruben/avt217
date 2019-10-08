@@ -1,0 +1,88 @@
+body {background-color: #DED250;
+}
+
+#container {width: 1440px
+}
+
+.title1 {font-family: hero-new,sans-serif;
+font-weight: 900;
+font-style: normal;
+text-transform: uppercase;
+text-align: center;
+font-size: 273pt;
+line-height: 200pt;
+color: #FFFCDD
+}
+
+.title2 {font-family: hero-new,sans-serif;
+font-weight: 900;
+font-style: normal;
+text-transform: uppercase;
+text-align: center;
+font-size: 273pt;
+line-height: 200pt;
+color: #FFFAC2
+}
+
+.title3 {font-family: hero-new,sans-serif;
+font-weight: 900;
+font-style: normal;
+text-transform: uppercase;
+text-align: center;
+font-size: 273pt;
+line-height: 200pt;
+color: #FFF597
+}
+
+.title4 {font-family: hero-new,sans-serif;
+font-weight: 900;
+font-style: normal;
+text-transform: uppercase;
+text-align: center;
+font-size: 273pt;
+line-height: 200pt;
+color: #FFF470
+}
+
+.title5 {font-family: hero-new,sans-serif;
+font-weight: 900;
+font-style: normal;
+text-transform: uppercase;
+text-align: center;
+font-size: 273pt;
+line-height: 200pt;
+color: #FFF23F
+}
+
+.author {font-family: hero-new, sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+h2 {color: black;
+font-size: 72pt;
+text-align: center;
+}
+
+.one {font-family: hero-new,sans-serif;
+font-weight: 900;
+font-style: normal;
+text-transform: uppercase;
+}
+
+h3 {font-size: 134pt;
+line-height: 120pt;
+letter-spacing: 25px;
+}
+
+.body {font-family: baskerville-urw,serif;
+font-weight: 400;
+font-style: normal;
+color: black;
+text-align: right;
+}
+
+p {font-size: 55pt;
+line-height: 58pt;
+text-align: left;
+}
