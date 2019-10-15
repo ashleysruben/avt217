@@ -1,3 +1,11 @@
+html {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {background-color: black;
 }
 
@@ -19,6 +27,14 @@ line-height: 14pt;
 
 h2 {font-size: 50pt;
 line-height: 118pt;
+}
+
+.image {
+  width:1920px; /*width of your image*/
+   height:1200px; /*height of your image*/
+   background-image:url('light-bulb-fire-flame.jpg');
+   margin:0; /* If you want no margin */
+   padding:0; /*if your want to padding */
 }
 
 .body {font-family: adobe-garamond-pro, serif;
