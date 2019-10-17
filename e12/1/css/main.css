@@ -13,20 +13,18 @@ text-align: center;
 margin-top: 500px
 }
 
-h1 {font-size: 80pt;
-line-height: 14pt;
+h1 {font-size: 100pt;
+line-height: 12pt;
 }
 
-h2 {font-size: 50pt;
+h2 {font-size: 75pt;
 line-height: 118pt;
 }
 
 .image {
-  width:1920px; /*width of your image*/
-   height:1200px; /*height of your image*/
-   background-image:url('light-bulb-fire-flame.jpg');
-   margin:0; /* If you want no margin */
-   padding:0; /*if your want to padding */
+  width:920px; /*width of your image*/
+  height:1200px; /*height of your image*/
+  float: left;
 }
 
 .body {font-family: adobe-garamond-pro, serif;
