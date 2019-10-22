@@ -2,6 +2,7 @@ body {
     background-color: whitesmoke;
     text-align: left;
     font-size: 20px;
+    font-family: serif;
 }
 img {
     max-width: 100%;
@@ -15,15 +16,30 @@ img {
 {
   body {background-color: salmon;
   font-size: 40px;
-margin: 100px;}
-h1 {color: blue;}
+margin: 67px;}
+h1 {color: black;}
+h3 {font-size: 40px;}
+h4 {font-size: 35px;}
 p {font-size: 30px;}
-li {font-size: 20px;}
+li {font-size: 25px;}
+}
 
+@media only screen and (min-width: 800px)
+{
+  body {background-color: #cecefe;
+  margin: 50px;}
+  h1 {font-size: 45px;}
+  h3 {font-size: 35px;}
+  h4 {font-size: 30px;}
+  p {font-size: 21px;}
 }
 
 @media only screen and (min-width: 1200px)
 {
-body {background-color: blue;}
-h1 {color: orange;}
+body {background-color: #01e134;}
+h1 {color: black;
+font-size: 35px;}
+h3 {font-size: 30px;}
+h4 {font-size: 25px;}
+p {font-size: 18px;}
 }
