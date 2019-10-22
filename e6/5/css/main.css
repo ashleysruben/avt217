@@ -7,7 +7,7 @@ body {
   margin-left: -10%;
   margin-top: -50px;
 }
-.tile1, .tile2, .tile3, .tile4, .tile5, .tile6 {
+.tile1 .tile2 .tile3 .tile4 .tile5 .tile6 {
   width: 100px;
   height: 100px;
   float: left;
