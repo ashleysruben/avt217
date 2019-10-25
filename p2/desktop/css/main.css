@@ -7,9 +7,6 @@ body {
 }
 
 .img {
-  background-image:url(ashleysruben.github.io/avt217/p2/desktop/images/main-photo.jpg);
-  background-size: cover;
-  background-position: center;
   width: 1000px;
   height: 500px;
   max-width: 100%
@@ -51,6 +48,14 @@ font-size: 13pt;
 text-align: center;
 }
 
+.dates {
+  margin: 25%;
+}
+
+img {
+  max-width: 100%;
+}
+
 .one, .two, .three {font-family: franklin-gothic-urw, sans-serif;
 font-weight: 400;
 font-style: italic;
@@ -66,6 +71,8 @@ font-family: franklin-gothic-urw;
 font-weight: 700;
 font-style: normal;
 font-size: 20px;
+float: left;
+margin-right: 13px;
 }
 
 h3 {text-transform: uppercase;
