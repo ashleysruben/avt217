@@ -7,12 +7,14 @@ body {
 }
 
 .img {
-  width: 1000px;
-  height: 500px;
+  background-image: url(../images/main.jpg);
+  width: 1400px;
+  height: 800px;
   max-width: 100%
 }
 
 .logo {
+  background-image: url(../images/logo.jpg);
   width: 680px;
   height: 200px;
   max-width: 100%;
@@ -35,9 +37,10 @@ font-size: 13pt;
 }
 
 .sigs {
+  background-image: url(../images/sigs.jpg);
   max-width: 100%;
-  width: 420px;
-  height: 120px;
+  width: 960px;
+  height: 270px;
 }
 
 h6 {font-family: franklin-gothic-urw, sans-serif;
