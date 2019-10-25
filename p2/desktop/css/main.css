@@ -10,7 +10,6 @@ body {
   width: 1440px;
   height: 855px;
   max-width: 100%;
-  object-fit: cover;
 }
 
 .logo {
@@ -66,7 +65,7 @@ font-style: normal;
 font-size: 20px;
 }
 
-.tix, a {text-transform: uppercase;
+h3 {text-transform: uppercase;
 color: yellow;
 font-family: franklin-gothic-urw;
 font-weight: 700;
