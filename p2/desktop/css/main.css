@@ -3,10 +3,15 @@ body {
   margin: 15px;
 }
 
+#id {
+
+}
+
 .img {
   width: 1440px;
   height: 855px;
   max-width: 100%;
+  object-fit: cover;
 }
 
 .logo {
@@ -62,11 +67,12 @@ font-style: normal;
 font-size: 20px;
 }
 
-h3 {text-transform: uppercase;
+.tix, a {text-transform: uppercase;
 color: yellow;
 font-family: franklin-gothic-urw;
 font-weight: 700;
 font-style: normal;
 font-size: 30px;
 text-align: right;
+text-decoration: none;
 }
