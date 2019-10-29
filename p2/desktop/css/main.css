@@ -7,17 +7,19 @@ body {
 }
 
 .img {
-  background-image: url(../images/main.jpg);
-  width: 900px;
+  width: 100%;
   height: 800px;
-  max-width: 100%
+  background-image: url(../images/main.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .logo {
-  background-image: url(../images/logo.jpg);
-  width: 680px;
+  width: 100%;
   height: 200px;
-  max-width: 100%;
+  background-image: url(../images/logo.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 h1 {
@@ -55,20 +57,48 @@ text-align: center;
   margin: 25%;
 }
 
-.one, .two, .three {font-family: franklin-gothic-urw, sans-serif;
+.one {
+  width: 100%;
+  height: 200px;
+  background-image: url(../images/5sos1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.two {
+  width: 100%;
+  height: 200px;
+  background-image: url(../images/5sos2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10px;
+}
+
+.three {
+  width: 100%;
+  height: 200px;
+  background-image: url(../images/5sos3.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10px;
+}
+
+.text {
+font-family: franklin-gothic-urw, sans-serif;
 font-weight: 400;
 font-style: italic;
 color: whitesmoke;
 font-size: 13pt;
 text-align: center;
-float: left;
 }
 
 .tour {
-  background-image: url(2019tour.jpg);
-  width: 1000px;
+  width: 100%;
   height: 800px;
-  max-width: 100%
+  background-image: url(../images/2019tour.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .tour1, .tour2, .tour3 {text-transform: uppercase;
@@ -89,4 +119,11 @@ font-style: normal;
 font-size: 30px;
 text-align: right;
 text-decoration: none;
+}
+
+@@media only screen and (max-width: 767px) {
+  .one, .two, .three {
+    width: auto;
+    float: left;
+  }
 }
