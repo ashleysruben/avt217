@@ -35,7 +35,7 @@ body {background-color: ivory;
  top: 229px;
  left: 357px;
  animation-name: blood;
- animation-duration: 4s;
+ animation-duration: 2.5s;
  animation-iteration-count: infinite;
  animation-timing-function: ease;
 }
