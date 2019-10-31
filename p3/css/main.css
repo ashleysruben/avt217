@@ -58,13 +58,21 @@ text-align: center;
   margin: 25%;
 }
 
+.disc {
+  text-align: center;
+}
+
 .one {
-  width: 100%;
-  height: 200px;
-  background-image: url(../images/5sos1.jpg);
+  /* width: 25%; */
+  /* background-image: url(../images/5sos1.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
-  margin: 10px;
+  background-size: contain; */
+  margin: 10px ;
+}
+
+.one img {
+  /* max-width: 100%; */
+  width: 25%;
 }
 
 .two {
