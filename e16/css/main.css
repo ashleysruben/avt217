@@ -2,26 +2,28 @@ body {background-color: ivory;
   margin: 200px;
 }
 
-#container {width: 1339px;
+#container {
+}
+
+
+.handle {
+  width:25px;
+     height:290px;
+     background: black;
+     margin-top: 100px;
+     position: absolute;
+     top: 90px;
+     left: 180px;
 }
 
 .blade {width: 0;
-   height: 0;
-   border-left: 200px solid silver;
-   border-top: 50px solid transparent;
-   border-bottom: 50px solid transparent;
-   position: absolute;
-   top: 180px;
-   left: 180px;
-}
-
-.handle {
-  width:20px;
-     height:230px;
-     background: black;
-     position: fixed;
-     top: 260px;
-     left: 180px;
+        height: 0;
+        border-left: 200px solid silver;
+        border-top: 50px solid transparent;
+        border-bottom: 50px solid transparent;
+        position: absolute;
+        top: 180px;
+        left: 180px;
 }
 
 .drip1 {
