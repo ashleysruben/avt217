@@ -54,10 +54,6 @@ font-size: 13pt;
 text-align: center;
 }
 
-.dates {
-  margin: 25%;
-}
-
 .disc {
   text-align: center;
 }
@@ -84,6 +80,19 @@ text-align: center;
   margin: 10px;
 }
 
+.two {
+  /* width: 25%; */
+  /* background-image: url(../images/5sos2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain; */
+  margin: 10px ;
+}
+
+.two img {
+  /* max-width: 100%; */
+  width: 25%;
+}
+
 .three {
   width: 100%;
   height: 200px;
@@ -91,6 +100,19 @@ text-align: center;
   background-repeat: no-repeat;
   background-size: contain;
   margin: 10px;
+}
+
+.three {
+  /* width: 25%; */
+  /* background-image: url(../images/5sos3.jpg);
+  background-repeat: no-repeat;
+  background-size: contain; */
+  margin: 10px ;
+}
+
+.three img {
+  /* max-width: 100%; */
+  width: 25%;
 }
 
 .text {
@@ -104,11 +126,18 @@ text-align: center;
 
 .tour {
   width: 100%;
-  height: 800px;
+  height: 450px;
   background-image: url(../images/2019tour.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+
+.dates {
+  width: auto;
+  height: auto;
+}
+
 
 .tour1, .tour2, .tour3 {text-transform: uppercase;
 color: whitesmoke;
@@ -128,6 +157,21 @@ font-style: normal;
 font-size: 30px;
 text-align: right;
 text-decoration: none;
+text-align: center;
+padding: 10px;
+}
+
+.gallery1 {
+  background-image: url(../images/bros.jpg);
+  width: 100%;
+}
+
+.gallery2 {
+  background-image: url(../images/guitar.jpg);
+}
+
+.gallery3 {
+  background-image: url(../images/michael.jpg);
 }
 
 @media only screen and (min-width: 500px)
