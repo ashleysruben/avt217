@@ -163,15 +163,39 @@ padding: 10px;
 
 .gallery1 {
   background-image: url(../images/bros.jpg);
-  width: 100%;
+  max-width: 30%;
+  width: 580px;
+  height: 500px;
+  float: left;
 }
 
 .gallery2 {
   background-image: url(../images/guitar.jpg);
+  max-width: 40%;
+  width: 280px;
+  height: 300px;
+  float: left;
+
 }
 
 .gallery3 {
   background-image: url(../images/michael.jpg);
+  max-width: 30%;
+  width: 280px;
+  height: 500px;
+  float: left;
+}
+
+.email {
+text-align: center;
+}
+
+.rainbow {
+  background-image: url(../images/rainbow.jpg);
+  max-width: 100%;
+  width: 445px;
+  height: 445px;
+
 }
 
 @media only screen and (min-width: 500px)
@@ -181,7 +205,7 @@ margin: 50px;}
 h1 {font-size: 70px;}
 h3 {font-size: 40px;}
 h4 {font-size: 35px;}
-p {font-size: 45px;}
+p {font-size: 25px;}
 .img {
   max-width: 100%;
   margin-bottom: -300px;
@@ -193,8 +217,8 @@ p {font-size: 45px;}
 {
   body {
 margin: 50px;}
-h1 {font-size: 60px;}
-h3 {font-size: 40px;}
+h1 {font-size: 40px;}
+h3 {font-size: 30px;}
 h4 {font-size: 35px;}
 p {font-size: 37px;}
 }
