@@ -1,0 +1,176 @@
+body {
+  background-color: black;
+  margin: 15px;
+}
+
+#container {width: 1440px;
+}
+
+.img {
+  width: 100%;
+  height: 800px;
+  background-image: url(../images/main.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.logo {
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-image: url(../images/logo.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: whitesmoke;
+  font-family: franklin-gothic-urw;
+font-weight: 700;
+font-style: normal;
+}
+
+p {
+  font-family: franklin-gothic-urw, sans-serif;
+font-weight: 400;
+font-style: italic;
+color: whitesmoke;
+font-size: 13pt;
+}
+
+.sigs {
+  background-image: url(../images/sigs.jpg);
+  max-width: 100%;
+  width: 960px;
+  height: 270px;
+}
+
+h6 {font-family: franklin-gothic-urw, sans-serif;
+font-weight: 400;
+font-style: italic;
+color: whitesmoke;
+font-size: 13pt;
+text-align: center;
+}
+
+.dates {
+  margin: 25%;
+}
+
+.disc {
+  text-align: center;
+}
+
+.one {
+  /* width: 25%; */
+  /* background-image: url(../images/5sos1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain; */
+  margin: 10px ;
+}
+
+.one img {
+  /* max-width: 100%; */
+  width: 25%;
+}
+
+.two {
+  width: 100%;
+  height: 200px;
+  background-image: url(../images/5sos2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10px;
+}
+
+.three {
+  width: 100%;
+  height: 200px;
+  background-image: url(../images/5sos3.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10px;
+}
+
+.text {
+font-family: franklin-gothic-urw, sans-serif;
+font-weight: 400;
+font-style: italic;
+color: whitesmoke;
+font-size: 13pt;
+text-align: center;
+}
+
+.tour {
+  width: 100%;
+  height: 800px;
+  background-image: url(../images/2019tour.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tour1, .tour2, .tour3 {text-transform: uppercase;
+color: whitesmoke;
+font-family: franklin-gothic-urw;
+font-weight: 700;
+font-style: normal;
+font-size: 20px;
+float: left;
+margin-right: 13px;
+}
+
+h3 {text-transform: uppercase;
+color: yellow;
+font-family: franklin-gothic-urw;
+font-weight: 700;
+font-style: normal;
+font-size: 30px;
+text-align: right;
+text-decoration: none;
+}
+
+@media only screen and (min-width: 500px)
+{
+  body {
+margin: 50px;}
+h1 {font-size: 70px;}
+h3 {font-size: 40px;}
+h4 {font-size: 35px;}
+p {font-size: 45px;}
+.img {
+  max-width: 100%;
+  margin-bottom: -300px;
+}
+
+}
+
+@media only screen and (min-width: 767px)
+{
+  body {
+margin: 50px;}
+h1 {font-size: 60px;}
+h3 {font-size: 40px;}
+h4 {font-size: 35px;}
+p {font-size: 37px;}
+}
+
+@media only screen and (min-width: 1025px)
+{
+  body {
+  margin: 50px;}
+  h1 {font-size: 50px;}
+  h3 {font-size: 35px;}
+  h4 {font-size: 30px;}
+  p {font-size: 30px;}
+}
+
+@media only screen and (min-width: 1339px)
+{
+  body {
+margin: 50px;}
+h1 {font-size: 45px;}
+h3 {font-size: 40px;}
+h4 {font-size: 35px;}
+p {font-size: 25px;}
+}
