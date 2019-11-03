@@ -3,24 +3,20 @@ body {
   margin: 15px;
 }
 
-#container {width: 1440px;
+#container {width: auto;
 }
 
-.img {
+.img img {
+  /* max-width: 100%; */
   width: 100%;
-  height: 800px;
-  background-image: url(../images/main.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
-.logo {
-  width: 100%;
-  height: 200px;
-  background-position: center;
-  background-image: url(../images/logo.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
+.logo img {
+  /* max-width: 100%; */
+  width: 45%;
+  padding-left: 30%;
+  padding-top: 20%;
+  margin-bottom: -90px;
 }
 
 h1 {
@@ -39,11 +35,10 @@ color: whitesmoke;
 font-size: 13pt;
 }
 
-.sigs {
-  background-image: url(../images/sigs.jpg);
-  max-width: 100%;
-  width: 960px;
-  height: 270px;
+.sigs img {
+  /* max-width: 100%; */
+  width: 55%;
+  padding-left: 20%;
 }
 
 h6 {font-family: franklin-gothic-urw, sans-serif;
@@ -58,56 +53,14 @@ text-align: center;
   text-align: center;
 }
 
-.one {
-  /* width: 25%; */
-  /* background-image: url(../images/5sos1.jpg);
-  background-repeat: no-repeat;
-  background-size: contain; */
-  margin: 10px ;
-}
-
 .one img {
   /* max-width: 100%; */
   width: 25%;
 }
 
-.two {
-  width: 100%;
-  height: 200px;
-  background-image: url(../images/5sos2.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin: 10px;
-}
-
-.two {
-  /* width: 25%; */
-  /* background-image: url(../images/5sos2.jpg);
-  background-repeat: no-repeat;
-  background-size: contain; */
-  margin: 10px ;
-}
-
 .two img {
   /* max-width: 100%; */
   width: 25%;
-}
-
-.three {
-  width: 100%;
-  height: 200px;
-  background-image: url(../images/5sos3.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin: 10px;
-}
-
-.three {
-  /* width: 25%; */
-  /* background-image: url(../images/5sos3.jpg);
-  background-repeat: no-repeat;
-  background-size: contain; */
-  margin: 10px ;
 }
 
 .three img {
@@ -124,18 +77,17 @@ font-size: 13pt;
 text-align: center;
 }
 
-.tour {
-  width: 100%;
-  height: 450px;
-  background-image: url(../images/2019tour.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
+.tour img {
+    /* max-width: 100%; */
+    width: 75%;
+    padding-left: 100px;
+  }
 
 
 .dates {
   width: auto;
   height: auto;
+  margin-left: 105px;
 }
 
 
@@ -161,51 +113,49 @@ text-align: center;
 padding: 10px;
 }
 
-.gallery1 {
-  background-image: url(../images/bros.jpg);
-  max-width: 30%;
-  width: 580px;
-  height: 500px;
-  float: left;
+.gallery1 img {
+  /* max-width: 100%; */
+  width: 45%;
+  object-fit: cover;
+  object-position: 100% 0;
+
+  width: 145px;
+  height: 337px;
 }
 
-.gallery2 {
-  background-image: url(../images/guitar.jpg);
-  max-width: 40%;
-  width: 280px;
-  height: 300px;
-  float: left;
-
+.gallery2 img {
+  /* max-width: 100%; */
+  width: 65%;
 }
 
-.gallery3 {
-  background-image: url(../images/michael.jpg);
-  max-width: 30%;
-  width: 280px;
-  height: 500px;
-  float: left;
+.gallery3 img {
+  /* max-width: 100%; */
+  width: 45%;
+  object-fit: cover;
+  object-position: -20% 0;
+
+  width: 155px;
+  height: 337px;
 }
 
 .email {
 text-align: center;
 }
 
-.rainbow {
-  background-image: url(../images/rainbow.jpg);
-  max-width: 100%;
-  width: 445px;
-  height: 445px;
-
+.rainbow img {
+  /* max-width: 100%; */
+  width: 35%;
 }
+
 
 @media only screen and (min-width: 500px)
 {
   body {
 margin: 50px;}
-h1 {font-size: 70px;}
+h1 {font-size: 45px;}
 h3 {font-size: 40px;}
 h4 {font-size: 35px;}
-p {font-size: 25px;}
+p {font-size: 20px;}
 .img {
   max-width: 100%;
   margin-bottom: -300px;
@@ -217,20 +167,20 @@ p {font-size: 25px;}
 {
   body {
 margin: 50px;}
-h1 {font-size: 40px;}
-h3 {font-size: 30px;}
+h1 {font-size: 45px;}
+h3 {font-size: 40px;}
 h4 {font-size: 35px;}
-p {font-size: 37px;}
+p {font-size: 20px;}
 }
 
 @media only screen and (min-width: 1025px)
 {
   body {
   margin: 50px;}
-  h1 {font-size: 50px;}
-  h3 {font-size: 35px;}
-  h4 {font-size: 30px;}
-  p {font-size: 30px;}
+  h1 {font-size: 45px;}
+  h3 {font-size: 40px;}
+  h4 {font-size: 35px;}
+  p {font-size: 20px;}
 }
 
 @media only screen and (min-width: 1339px)
@@ -240,5 +190,5 @@ margin: 50px;}
 h1 {font-size: 45px;}
 h3 {font-size: 40px;}
 h4 {font-size: 35px;}
-p {font-size: 25px;}
+p {font-size: 20px;}
 }
