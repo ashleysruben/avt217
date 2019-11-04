@@ -101,16 +101,20 @@ float: left;
 margin-right: 13px;
 }
 
-h3 {text-transform: uppercase;
+h2 {text-transform: uppercase;
 color: yellow;
 font-family: franklin-gothic-urw;
 font-weight: 700;
 font-style: normal;
-font-size: 30px;
+font-size: 28.5px;
 text-align: right;
 text-decoration: none;
 text-align: center;
-padding: 10px;
+padding: 5px;
+border: 7px solid yellow;
+width: 160px;
+height: 100px;
+float: left;
 }
 
 .gallery1 img {
@@ -153,6 +157,20 @@ text-align: center;
 .rainbow img {
   /* max-width: 100%; */
   width: 35%;
+}
+
+h3 {text-transform: uppercase;
+color: yellow;
+font-family: franklin-gothic-urw;
+font-weight: 700;
+font-style: normal;
+font-size: 30px;
+text-align: right;
+text-decoration: none;
+text-align: center;
+padding: 10px;
+border: 5px solid yellow;
+width: 550px;
 }
 
 
