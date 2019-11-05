@@ -149,6 +149,7 @@ float: left;
   width: 155px;
   height: 337px;
   float: left;
+  margin-bottom: 40px;
 }
 
 .email {
@@ -218,4 +219,10 @@ h1 {font-size: 45px;}
 h3 {font-size: 40px;}
 h4 {font-size: 35px;}
 p {font-size: 20px;}
+
+.gallery {margin: 120px;
+}
+/* .email, .rainbow {
+  text-align: center; */
+}
 }
