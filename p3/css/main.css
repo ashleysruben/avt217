@@ -148,7 +148,7 @@ float: left;
 
   width: 155px;
   height: 337px;
-  float: left;
+  /* float: left; */
   margin-bottom: 40px;
 }
 
