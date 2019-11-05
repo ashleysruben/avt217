@@ -117,6 +117,12 @@ height: 100px;
 float: left;
 }
 
+a:hover {color: white
+}
+
+a {color: yellow;
+}
+
 .gallery1 img {
   /* max-width: 100%; */
   width: 45%;
