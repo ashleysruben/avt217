@@ -39,7 +39,7 @@ p {
 font-weight: 400;
 font-style: italic;
 color: whitesmoke;
-font-size: 13pt;
+font-size: 12pt;
 }
 
 .sigs img {
@@ -60,27 +60,15 @@ text-align: center;
   margin: 20px auto;
   text-align: center;
   float: left;
+  padding-left: 150px;
 }
 
-.one img {
-  /* max-width: 100%; */
+.one img, .two img, .three img {
+  max-width: 50%;
   margin: 10px auto;
   width: 25%;
-  /* float: left; */
-}
-
-.two img {
-  /* max-width: 100%; */
-  margin: 10px auto;
-  width: 25%;
-  /* float: left; */
-}
-
-.three img {
-  /* max-width: 100%; */
-  margin: 40px auto;
-  width: 25%;
-  /* float: left; */
+  float: left;
+  padding: 7px;
 }
 
 .text1, .text2, .text3 {
@@ -88,9 +76,10 @@ font-family: franklin-gothic-urw, sans-serif;
 font-weight: 400;
 font-style: italic;
 color: whitesmoke;
-font-size: 13pt;
+font-size: 9px;
 text-align: center;
-/* float: left; */
+float: left;
+margin: 15px;
 }
 
 .tour img {
@@ -199,7 +188,7 @@ text-decoration: none;
 text-align: center;
 padding: 10px;
 border: 5px solid yellow;
-width: 550px;
+/* width: 550px; */
 }
 
 @media only screen and (max-width: 1339px)
