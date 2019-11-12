@@ -256,15 +256,21 @@ p {font-size: 20px;}
 @media only screen and (max-width: 500px)
 {
   body {
-margin: 50px;}
-h1 {font-size: 35px;}
-h3 {font-size: 40px;}
+margin: 10px;}
+h1 {font-size: 30px;}
+h3 {font-size: 24px;}
 h4 {font-size: 35px;}
 p {font-size: 15px;}
-/* .img {
-  max-width: 100%;
-  margin-bottom: -300px;} */
-.tour1, .tour2, .tour3 {
-  font-size: 12px;
+.disc {
+  width: 90%;
+  margin-left: -110px;
+}
+.tour {
+  width: 120%;
+  margin-left: -90px;
+}
+.dates {
+  margin-left: 100px;
+}
 }
 }
