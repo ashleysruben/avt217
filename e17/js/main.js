@@ -3,6 +3,6 @@ $(document).ready(function(){
 
 
   $('.first').click(function(){
-    $('.one').toggleClass('first');
+    $('.one').toggleClass('align-left');
     });
   });
