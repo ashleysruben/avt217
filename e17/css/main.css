@@ -20,10 +20,6 @@ a {
   text-align: center;
 }
 
-h1 {
-  text-transform: full-width;
-}
-
 .lab {
   font-size: .5em;
   background-image: url(images/black-lab.jpg);
@@ -50,4 +46,6 @@ h1 {
   text-align: left;
 }
 
-.
+.align-right {
+  text-align: right;
+}
