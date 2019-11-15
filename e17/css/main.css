@@ -20,26 +20,64 @@ a {
   text-align: center;
 }
 
-.lab {
-  font-size: .5em;
+.one {
+  width: 100vw;
+  height: 9vh;
+  color: #025756;
+  padding: 35vh 0 0 0;
+  font-size: 8vw;
+  text-align: center;
   background-image: url(images/black-lab.jpg);
 }
 
-.corgi {
- font-size: .5em;
- background-image: url(images/corgi-fluff.jpg);
+.two {
+  width: 100vw;
+  height: 9vh;
+  color: #025756;
+  padding: 35vh 0 0 0;
+  font-size: 8vw;
+  text-align: center;
+  background-image: url(images/corgi-fluff.jpg);
 }
 
-.beags {
+.three {
+  width: 100vw;
+  height: 9vh;
+  color: #025756;
+  padding: 35vh 0 0 0;
+  font-size: 8vw;
+  text-align: center;
   background-image: url(images/beagle-2.jpg);
 }
 
-.hailey {
+.four {
+  width: 100vw;
+  height: 9vh;
+  color: #025756;
+  padding: 35vh 0 0 0;
+  font-size: 8vw;
+  text-align: center;
   background-image: url(images/border-collie.jpg);
 }
 
-.pbgv {
+.four img {
+  width: auto;
+  height:
+}
+
+.five {
+  width: 100vw;
+  height: 9vh;
+  color: #025756;
+  padding: 35vh 0 0 0;
+  font-size: 8vw;
+  text-align: center;
   background-image: url(images/pbgv.jpg);
+}
+
+.five img {
+  width: 65%;
+  height: 
 }
 
 .align-left {
