@@ -1,0 +1,53 @@
+html {
+  font-size: 16px;
+}
+
+body {
+margin: 15px;
+font-family: 'Raleway', sans-serif;
+}
+
+a {
+
+}
+
+.title {
+  width: 100vw;
+  height: 9vh;
+  color: #025756;
+  padding: 35vh 0 0 0;
+  font-size: 8vw;
+  text-align: center;
+}
+
+h1 {
+  text-transform: full-width;
+}
+
+.lab {
+  font-size: .5em;
+  background-image: url(images/black-lab.jpg);
+}
+
+.corgi {
+ font-size: .5em;
+ background-image: url(images/corgi-fluff.jpg);
+}
+
+.beags {
+  background-image: url(images/beagle-2.jpg);
+}
+
+.hailey {
+  background-image: url(images/border-collie.jpg);
+}
+
+.pbgv {
+  background-image: url(images/pbgv.jpg);
+}
+
+.align-left {
+  text-align: left;
+}
+
+.
