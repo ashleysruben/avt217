@@ -1,10 +1,11 @@
 body {
   background-color: black;
-  margin: 15px;
+  margin: 0;
   overflow-x: hidden;
 }
 
-#container {width: auto;
+#container {
+  margin: 25px;
 }
 
 .img img {
@@ -16,8 +17,13 @@ body {
   /* max-width: 100%; */
   width: 45%;
   padding-left: 30%;
-  padding-top: 20%;
-  margin-bottom: -90px;
+  /* padding-top: 20%; */
+  margin-bottom: -50px;
+}
+
+.bio {
+  width: 90%;
+  margin: 10px auto;
 }
 
 h1 {
@@ -33,7 +39,7 @@ p {
 font-weight: 400;
 font-style: italic;
 color: whitesmoke;
-font-size: 13pt;
+font-size: 12pt;
 }
 
 .sigs img {
@@ -51,44 +57,42 @@ text-align: center;
 }
 
 .disc {
+  margin: 20px auto;
   text-align: center;
+  float: left;
+  padding-left: 150px;
 }
 
-.one img {
-  /* max-width: 100%; */
+.one img, .two img, .three img {
+  max-width: 50%;
+  margin: 10px auto;
   width: 25%;
+  float: left;
+  padding: 7px;
 }
 
-.two img {
-  /* max-width: 100%; */
-  width: 25%;
-}
-
-.three img {
-  /* max-width: 100%; */
-  width: 25%;
-}
-
-.text {
+.text1, .text2, .text3 {
 font-family: franklin-gothic-urw, sans-serif;
 font-weight: 400;
 font-style: italic;
 color: whitesmoke;
-font-size: 13pt;
+font-size: 9px;
 text-align: center;
+float: left;
+margin: 15px;
 }
 
 .tour img {
     /* max-width: 100%; */
-    width: 75%;
-    padding-left: 100px;
+    padding-left: 250px;
+    width: 50%;
+    margin: 10px auto;
   }
 
 
 .dates {
-  width: auto;
-  height: auto;
-  margin-left: 105px;
+  width: 60%;
+  margin: 10px auto;
 }
 
 
@@ -122,6 +126,11 @@ a:hover {color: white
 }
 
 a {color: yellow;
+}
+
+.gallery {
+  width: 70%;
+  margin: 10px auto;
 }
 
 .gallery1 img {
@@ -179,46 +188,10 @@ text-decoration: none;
 text-align: center;
 padding: 10px;
 border: 5px solid yellow;
-width: 550px;
+/* width: 550px; */
 }
 
-
-@media only screen and (min-width: 500px)
-{
-  body {
-margin: 50px;}
-h1 {font-size: 45px;}
-h3 {font-size: 40px;}
-h4 {font-size: 35px;}
-p {font-size: 20px;}
-.img {
-  max-width: 100%;
-  margin-bottom: -300px;
-}
-
-}
-
-@media only screen and (min-width: 767px)
-{
-  body {
-margin: 50px;}
-h1 {font-size: 45px;}
-h3 {font-size: 40px;}
-h4 {font-size: 35px;}
-p {font-size: 20px;}
-}
-
-@media only screen and (min-width: 1025px)
-{
-  body {
-  margin: 50px;}
-  h1 {font-size: 45px;}
-  h3 {font-size: 40px;}
-  h4 {font-size: 35px;}
-  p {font-size: 20px;}
-}
-
-@media only screen and (min-width: 1339px)
+@media only screen and (max-width: 1339px)
 {
   body {
 margin: 50px;}
@@ -231,5 +204,73 @@ p {font-size: 20px;}
 }
 /* .email, .rainbow {
   text-align: center; */
+}
+
+
+
+@media only screen and (max-width: 1025px)
+{
+  body {
+  margin: 50px;}
+  h1 {font-size: 45px;}
+  h3 {font-size: 30px;}
+  h4 {font-size: 35px;}
+  p {font-size: 20px;}
+  .gallery1 {
+    max-width: 25%;}
+  .gallery2 {
+    width: 50%;}
+  .gallery3 {
+    width: 25%}
+  }
+  .text1 p, .text2 p, .text3 p {
+    font-size: 10px;
+  }
+  .tour img {
+    padding-left: 190px;
+  }
+  .tour1 h5, .tour2 h5, .tour3 h5 {
+    font-size: 10px;}
+h2 {
+    font-size: 20px;
+    border: 5px solid yellow;
+    width: 130px;
+    height: 50px;
+  }
+  }
+}
+
+
+@media only screen and (max-width: 767px)
+{
+  body {
+margin: 50px;}
+h1 {font-size: 40px;}
+h3 {font-size: 40px;}
+h4 {font-size: 35px;}
+h5 {font-size: 13px;}
+p {font-size: 20px;}
+}
+
+
+@media only screen and (max-width: 500px)
+{
+  body {
+margin: 10px;}
+h1 {font-size: 30px;}
+h3 {font-size: 24px;}
+h4 {font-size: 35px;}
+p {font-size: 15px;}
+.disc {
+  width: 90%;
+  margin-left: -110px;
+}
+.tour {
+  width: 120%;
+  margin-left: -90px;
+}
+.dates {
+  margin-left: 100px;
+}
 }
 }
