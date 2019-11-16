@@ -1,8 +1,15 @@
 $(document).ready(function(){
   console.log("ready");
 
-
-  $('.first').click(function(){
-    $('.one').toggleClass('align-left');
+  $('.one').click(function(){
+    $('.lab').toggleClass('align-left')
     });
+
+  $('.two').click(function(){
+    $('.corgi').toggleClass('align-right')
   });
+
+  $('.three').click(function(){
+      $('.beags').toggleClass('up')
+  });
+});

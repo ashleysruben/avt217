@@ -3,81 +3,96 @@ html {
 }
 
 body {
-margin: 15px;
 font-family: 'Raleway', sans-serif;
-}
-
-a {
-
 }
 
 .title {
   width: 100vw;
-  height: 9vh;
+  height: 60vh;
   color: #025756;
-  padding: 35vh 0 0 0;
+  padding: 15vh 0 0 0;
   font-size: 8vw;
   text-align: center;
 }
 
 .one {
   width: 100vw;
-  height: 9vh;
+  height: 65vh;
   color: #025756;
-  padding: 35vh 0 0 0;
+  padding: 12vh 0 0 0;
   font-size: 8vw;
   text-align: center;
-  background-image: url(images/black-lab.jpg);
+  background-color: #ffe57a;
+}
+
+.one img {
+  width: 50%;
+  padding-top: 32px;
+  position: relative;
 }
 
 .two {
   width: 100vw;
-  height: 9vh;
+  height: 60vh;
   color: #025756;
-  padding: 35vh 0 0 0;
+  padding: 12vh 0 0 0;
   font-size: 8vw;
   text-align: center;
-  background-image: url(images/corgi-fluff.jpg);
+  background-color: #deafba;
+}
+
+.two img {
+  width: 50%;
+  padding-top: 32px;
+  position: relative;
 }
 
 .three {
   width: 100vw;
-  height: 9vh;
+  height: 60vh;
   color: #025756;
-  padding: 35vh 0 0 0;
+  padding: 12vh 0 0 0;
   font-size: 8vw;
   text-align: center;
-  background-image: url(images/beagle-2.jpg);
+  background-color: #abe3e7;
+}
+
+.three img {
+  width: 50%;
+  padding-top: 32px;
+  position: relative;
 }
 
 .four {
   width: 100vw;
-  height: 9vh;
+  height: 60vh;
   color: #025756;
-  padding: 35vh 0 0 0;
+  padding: 12vh 0 0 0;
   font-size: 8vw;
   text-align: center;
-  background-image: url(images/border-collie.jpg);
+  background-color: #d0ccfe;
 }
 
 .four img {
-  width: auto;
-  height:
+  width: 50%;
+  padding-top: 32px;
+  position: relative;
 }
 
 .five {
   width: 100vw;
-  height: 9vh;
+  height: 75vh;
   color: #025756;
-  padding: 35vh 0 0 0;
+  padding: 12vh 0 0 0;
   font-size: 8vw;
   text-align: center;
-  background-image: url(images/pbgv.jpg);
+  background-color: #fa8072;
 }
 
 .five img {
-  width: 65%;
-  height: 
+  width: 50%;
+  padding-top: 32px;
+  position: relative;
 }
 
 .align-left {
@@ -86,4 +101,15 @@ a {
 
 .align-right {
   text-align: right;
+}
+
+.up {
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #025756;
+  padding: 12vh 0 0 0;
+  font-size: 5em;
+  text-align: center;
 }
