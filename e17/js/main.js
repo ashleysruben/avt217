@@ -1,9 +1,9 @@
 $(document).ready(function(){
-  console.log("ready");
+  console.log('ready');
 
   $('.one').click(function(){
     $('.lab').toggleClass('align-left');
-  })
+  });
 
   $('.two').click(function(){
     $('.corgi').toggleClass('align-right');
