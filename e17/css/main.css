@@ -1,5 +1,8 @@
-html {
-  font-size: 16px;
+* {
+  box-sizing: border-box;
+  }
+
+html {font-size: 16px;
 }
 
 body {
@@ -103,7 +106,7 @@ font-family: 'Raleway', sans-serif;
   text-align: right;
 }
 
-.up {
+.uppercase {
   text-transform: uppercase;
 }
 
