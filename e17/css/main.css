@@ -1,5 +1,4 @@
-* {
-  box-sizing: border-box;
+* {box-sizing: border-box;
   }
 
 html {font-size: 16px;
@@ -38,7 +37,6 @@ h1 {
 .one img {
   width: 50%;
   padding-top: 32px;
-  position: relative;
 }
 
 .two {
@@ -115,4 +113,12 @@ h1 {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.grow {
+  font-size: 12vw;
+}
+
+.color {
+  color: yellow;
 }

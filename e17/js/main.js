@@ -2,14 +2,22 @@ $(document).ready(function(){
   console.log('ready');
 
   $('.one').click(function(){
-    $('.lab').toggleClass('align-left');
+    $('.one').toggleClass('align-left');
   });
 
   $('.two').click(function(){
-    $('.corgi').toggleClass('align-right');
+    $('.two').toggleClass('align-right');
   });
 
   $('.three').click(function(){
-      $('.beags').toggleClass('uppercase');
+      $('.three').toggleClass('uppercase');
+  });
+
+  $('.four').click(function(){
+      $('.four').toggleClass('grow');
+  });
+
+  $('.five').click(function(){
+      $('.five').toggleClass('color');
   });
 });
